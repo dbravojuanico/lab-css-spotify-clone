@@ -6,3 +6,130 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* GENERAL */
+
+body {
+    margin: 0;
+}
+
+/* NAVIGATON BAR */
+
+nav {
+    height: 35px;
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    height: 90%;
+    margin: 0px;
+}
+
+.navRightSide {
+    height: 31.5px100%;
+}
+
+.navLeftSide {
+    height: 90%;
+}
+
+.spotifyLogo {
+    height: 100%;
+}
+
+/* SECTION A */
+
+.sectionA {
+    background-image: url(/images/landing.jpg);
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.sectionA p {
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+/* SECTION B */
+
+.sectionB img {
+    height: 80px;
+}
+
+.sectionB h3 {
+    color: #00B172;
+    margin-bottom: 5px;
+}
+
+.sectionB h2 {
+    text-align: center;
+}
+
+.sectionB-mainContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sectionB-subContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+/* SECTION C */
+
+.sectionC {
+    background-image: url(/images/spotify-icon-white.png);
+    background-size: 10%;
+    background-position: center;
+    background-repeat: no-repeat;   
+    background-color: #00B172;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 400px;
+    margin: 0px 20px;
+    padding: 0px 35px 40px 40px;
+    color: white;
+}
+
+.sectionC h3 {
+    border-bottom: solid 2px white;
+}
+
+.sectionC p {
+    margin-bottom: 0px;
+}
+
+.sectionC-imgContainer {
+    height: 80%;
+}
+
+.sectionC img {
+    height: 100%;
+}
